@@ -1,6 +1,10 @@
 <h1>AjaxApp</h1>
 <%= form_with url:  "/posts", method: :post,id: "form" do |form| %>
+<<<<<<< Updated upstream
   <%= form.text_field :content, id: "content" %>
+=======
+  <%= form.text_field :content %>
+>>>>>>> Stashed changes
   <%= form.submit '投稿する' , id: "submit" %>
 <% end %>
 
